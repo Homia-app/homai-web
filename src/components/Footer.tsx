@@ -107,7 +107,7 @@ export default function Footer() {
               </h4>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors duration-200">
+                  <Link href="/support" className="hover:text-white transition-colors duration-200">
                     {t("footer.support")}
                   </Link>
                 </li>
