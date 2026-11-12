@@ -1,7 +1,6 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import FeaturesGrid from "@/components/FeaturesGrid";
-import ProductGallery from "@/components/ProductGallery";
 import HomiaBusinessSection from "@/components/HomiaBusinessSection";
 import CtaBanner from "@/components/CtaBanner";
 import Footer from "@/components/Footer";
@@ -19,9 +18,6 @@ export default function Home() {
 
         {/* Features 3-Column Grid */}
         <FeaturesGrid />
-
-        {/* Curated Marketplace Gallery */}
-        <ProductGallery />
 
         {/* Homia Business / Store Owner App Section */}
         <HomiaBusinessSection />

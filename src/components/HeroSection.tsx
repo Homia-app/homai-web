@@ -40,7 +40,7 @@ export default function HeroSection() {
               </Link>
               
               <Link
-                href="#catalog"
+                href="#business"
                 className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-slate-700 bg-surface-soft/80 border border-slate-200/50 rounded-full hover:bg-surface-soft transition-all duration-200"
               >
                 {t("hero.ctaSecondary")}

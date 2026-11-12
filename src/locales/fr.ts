@@ -10,7 +10,7 @@ export const fr = {
   "hero.titlePart2": "de l'art pour vos murs.",
   "hero.subtitle": "Homia apporte le design d'intérieur éditorial moderne chez vous. Utilisez notre marketplace AR interactive pour prévisualiser des céramiques artisanales et des motifs muraux géométriques en temps réel.",
   "hero.ctaPrimary": "Télécharger pour iOS",
-  "hero.ctaSecondary": "Voir le catalogue",
+  "hero.ctaSecondary": "Pour les commerçants",
   "hero.socialProof": "Approuvé par plus de 12 000 designers et propriétaires.",
   "suppliers.title": "Fournisseurs Sélectionnés",
   "features.badge": "Design Redéfini",

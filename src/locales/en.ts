@@ -10,7 +10,7 @@ export const en = {
   "hero.titlePart2": "art for your walls.",
   "hero.subtitle": "Homia brings modern editorial interior design directly into your home. Use our interactive AR marketplace to preview handcrafted ceramics and geometric wall tiles on your walls in real time.",
   "hero.ctaPrimary": "Download for iOS",
-  "hero.ctaSecondary": "View Catalog",
+  "hero.ctaSecondary": "For Store Owners",
   "hero.socialProof": "Trusted by over 12,000+ designers and homeowners.",
   "suppliers.title": "Featured Curated Suppliers",
   "features.badge": "Design Redefined",

@@ -64,11 +64,6 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#catalog" className="hover:text-white transition-colors duration-200">
-                    {t("nav.collections")}
-                  </Link>
-                </li>
-                <li>
                   <Link href="#business" className="hover:text-white transition-colors duration-200">
                     {t("nav.business")}
                   </Link>
