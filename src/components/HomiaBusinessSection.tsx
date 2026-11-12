@@ -26,7 +26,7 @@ export default function HomiaBusinessSection() {
       title: t("business.tabInvoices"),
       desc: t("business.tabInvoicesDesc"),
       image: "/images/business/screen_invoices.webp",
-      highlight: "LOOPINV-880 • 25,000 د.ج",
+      highlight: "LOOPINV-880 • 25,000 DA",
       badge: "Real-time Invoicing",
     },
     {
@@ -44,7 +44,7 @@ export default function HomiaBusinessSection() {
       title: t("business.tabAnalytics"),
       desc: t("business.tabAnalyticsDesc"),
       image: "/images/business/screen_analytics.webp",
-      highlight: "70M د.ج Revenue • +8.2%",
+      highlight: "70M DA Revenue • +8.2%",
       badge: "30-Day Growth Analytics",
     },
     {

@@ -13,28 +13,28 @@ export default function ProductGallery() {
       image: "/images/geometric_wall_tiles.jpg",
       title: t("gallery.prod1"),
       supplier: "Moderna",
-      price: "$18.50 / sq ft",
+      price: "2,400 DA / m²",
       link: "#"
     },
     {
       image: "/images/ceramic_vase.jpg",
       title: t("gallery.prod2"),
       supplier: "Kiln",
-      price: "$120.00",
+      price: "12,000 DA",
       link: "#"
     },
     {
       image: "/images/terracotta_pot.jpg",
       title: t("gallery.prod3"),
       supplier: "Terra",
-      price: "$85.00",
+      price: "8,500 DA",
       link: "#"
     },
     {
       image: "/images/ceramic_plates.jpg",
       title: t("gallery.prod4"),
       supplier: "Clay & Co",
-      price: "$145.00",
+      price: "16,500 DA",
       link: "#"
     }
   ];
