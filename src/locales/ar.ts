@@ -12,7 +12,7 @@ export const ar = {
   "hero.subtitle": "هوميا تجلب التصميم الداخلي الحديث لبيتك. استخدم سوق الواقع المعزز التفاعلي لمعاينة السيراميك المصنوع يدويًا وتصميمات جدران هندسية على جدرانك في الوقت الفعلي.",
   "hero.ctaPrimary": "تنزيل لنظام iOS",
   "hero.ctaSecondary": "عرض الكتالوج",
-  "hero.socialProof": "موضع ثقة أكثر من ١٢,٠٠٠ مصمم ومالك منزل.",
+  "hero.socialProof": "موضع ثقة أكثر من 12,000 مصمم ومالك منزل.",
   
   "suppliers.title": "الموردون المنسقون المميزون",
   
@@ -24,7 +24,7 @@ export const ar = {
   "features.item2Title": "سوق مباشر من الأستوديو",
   "features.item2Desc": "اطلب مباشرة من فنانين عالميين وموردين مستقلين. اكتشف مجموعات فريدة لن تجدها في أي مكان آخر.",
   "features.item3Title": "مسح مساحي دقيق",
-  "features.item3Desc": "تقوم أداة مسح وتخطيط المساحة الذكية بقياس جدرانك وحساب الكمية المطلوبة بدقة ٩٩٪ لتجنب الهدر.",
+  "features.item3Desc": "تقوم أداة مسح وتخطيط المساحة الذكية بقياس جدرانك وحساب الكمية المطلوبة بدقة 99% لتجنب الهدر.",
   
   "gallery.badge": "سوق منسق",
   "gallery.title": "استكشف المجموعات المنسقة",
@@ -66,11 +66,11 @@ export const ar = {
   "business.tabAnalyticsDesc": "راقب أداء متجرك لحظة بلحظة: إجمالي الإيرادات (70M+ دج)، مبيعات الشهر (+8.2%)، متوسط قيمة الطلب، ومخططات بيانية دقيقة للمبيعات.",
   "business.tabArSync": "عرض فوري بالواقع المعزز",
   "business.tabArSyncDesc": "أي منتج تضيفه في متجرك يصبح متاحًا فورًا للمشترين في تطبيق هوميا لمعاينته ثلاثي الأبعاد على جدران منازلهم قبل الشراء.",
-  "business.statRevenue": "+٧٠ مليون دج",
+  "business.statRevenue": "+70 مليون دج",
   "business.statRevenueLabel": "إجمالي مبيعات المتاجر",
-  "business.statGrowth": "+٨.٢٪",
+  "business.statGrowth": "+8.2%",
   "business.statGrowthLabel": "نمو المبيعات الشهري",
-  "business.statSpeed": "< ٦٠ ثانية",
+  "business.statSpeed": "< 60 ثانية",
   "business.statSpeedLabel": "لإنشاء ونشر منتج جديد",
   "business.statAcceptance": "فوري",
   "business.statAcceptanceLabel": "معالجة وإصدار الفواتير",
