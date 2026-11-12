@@ -65,12 +65,6 @@ export default function Navbar() {
               {t("nav.collections")}
             </Link>
             <Link
-              href="#suppliers"
-              className="text-sm font-medium text-text-muted hover:text-brand transition-colors duration-200"
-            >
-              {t("nav.suppliers")}
-            </Link>
-            <Link
               href="#business"
               className="text-sm font-medium text-text-muted hover:text-brand transition-colors duration-200"
             >
@@ -157,13 +151,6 @@ export default function Navbar() {
               className="text-base font-medium text-text-muted hover:text-brand transition-colors duration-200 py-2 border-b border-slate-100"
             >
               {t("nav.collections")}
-            </Link>
-            <Link
-              href="#suppliers"
-              onClick={() => setIsMobileMenuOpen(false)}
-              className="text-base font-medium text-text-muted hover:text-brand transition-colors duration-200 py-2 border-b border-slate-100"
-            >
-              {t("nav.suppliers")}
             </Link>
             <Link
               href="#business"

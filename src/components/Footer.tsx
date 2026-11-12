@@ -93,11 +93,6 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#suppliers" className="hover:text-white transition-colors duration-200">
-                    {t("nav.suppliers")}
-                  </Link>
-                </li>
-                <li>
                   <Link href="#" className="hover:text-white transition-colors duration-200">
                     {t("footer.press")}
                   </Link>

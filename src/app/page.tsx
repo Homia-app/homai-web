@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
-import SupplierStrip from "@/components/SupplierStrip";
 import FeaturesGrid from "@/components/FeaturesGrid";
 import ProductGallery from "@/components/ProductGallery";
 import HomiaBusinessSection from "@/components/HomiaBusinessSection";
@@ -17,9 +16,6 @@ export default function Home() {
       <main className="flex-grow">
         {/* Split Screen Hero Section */}
         <HeroSection />
-
-        {/* Featured Supplier Logo Strip */}
-        <SupplierStrip />
 
         {/* Features 3-Column Grid */}
         <FeaturesGrid />
