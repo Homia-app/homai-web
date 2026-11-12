@@ -69,6 +69,11 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
+                  <Link href="#business" className="hover:text-white transition-colors duration-200">
+                    {t("nav.business")}
+                  </Link>
+                </li>
+                <li>
                   <Link href="#download" className="hover:text-white transition-colors duration-200">
                     {t("nav.cta")}
                   </Link>

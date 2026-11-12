@@ -96,34 +96,18 @@ export default function HeroSection() {
           {/* Right Column: Phone Mockup */}
           <div className="lg:col-span-5 flex justify-center lg:justify-end rtl:lg:justify-start relative">
             {/* Soft violet blurred orb specifically behind the phone */}
-            <div className="absolute top-1/2 left-1/2 -z-10 w-[260px] h-[260px] rounded-full bg-brand/35 blur-[60px] -translate-x-1/2 -translate-y-1/2" />
+            <div className="absolute top-1/2 left-1/2 -z-10 w-[260px] h-[260px] sm:w-[320px] sm:h-[320px] rounded-full bg-brand/35 blur-[60px] -translate-x-1/2 -translate-y-1/2" />
             
             {/* Phone Mockup Wrapper with float animation */}
-            <div className="relative w-[280px] h-[580px] sm:w-[310px] sm:h-[640px] animate-float">
-              {/* Phone Outer Frame */}
-              <div className="absolute inset-0 rounded-[44px] border-[11px] border-slate-900 bg-slate-950 shadow-[0_25px_50px_-12px_rgba(0,0,0,0.4)] overflow-hidden">
-                
-                {/* Speaker Ear Piece */}
-                <div className="absolute top-3 left-1/2 transform -translate-x-1/2 w-28 h-4 bg-slate-900 rounded-full z-20 flex items-center justify-center">
-                  <div className="w-8 h-1 bg-slate-800 rounded-full" />
-                </div>
-
-                {/* Inner Screen Content */}
-                <div className="relative w-full h-full">
-                  <Image
-                    src="/images/ar_phone_preview.jpg"
-                    alt="Homia AR Interface Preview"
-                    fill
-                    sizes="(max-width: 768px) 280px, 310px"
-                    priority
-                    className="object-cover object-center"
-                  />
-                </div>
-
-              </div>
-
-              {/* Decorative glare lines/reflections for the phone glass */}
-              <div className="absolute top-0 right-0 w-full h-full rounded-[44px] border-[1px] border-white/20 pointer-events-none z-30" />
+            <div className="relative w-[280px] sm:w-[320px] lg:w-[340px] animate-float">
+              <Image
+                src="/images/ar_phone_preview.png"
+                alt="Homia AR Interface Preview"
+                width={649}
+                height={1296}
+                priority
+                className="w-full h-auto drop-shadow-[0_25px_50px_rgba(0,0,0,0.35)]"
+              />
             </div>
           </div>
 

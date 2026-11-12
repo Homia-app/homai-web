@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import SupplierStrip from "@/components/SupplierStrip";
 import FeaturesGrid from "@/components/FeaturesGrid";
 import ProductGallery from "@/components/ProductGallery";
+import HomiaBusinessSection from "@/components/HomiaBusinessSection";
 import CtaBanner from "@/components/CtaBanner";
 import Footer from "@/components/Footer";
 
@@ -25,6 +26,9 @@ export default function Home() {
 
         {/* Curated Marketplace Gallery */}
         <ProductGallery />
+
+        {/* Homia Business / Store Owner App Section */}
+        <HomiaBusinessSection />
 
         {/* Violet Call-to-Action Banner */}
         <CtaBanner />
