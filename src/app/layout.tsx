@@ -16,13 +16,13 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://homia-website.vercel.app"),
+  metadataBase: new URL("https://homai-web.vercel.app"),
   title: "Homia — AR-powered Interior Design Marketplace",
   description: "Discover, preview in AR, and buy curated ceramics and wall designs from top global suppliers. Bring editorial interior design to life in your space.",
   openGraph: {
     title: "Homia — AR-powered Interior Design Marketplace",
     description: "Discover, preview in AR, and buy curated ceramics and wall designs from top global suppliers. Bring editorial interior design to life in your space.",
-    url: "https://homia-website.vercel.app",
+    url: "https://homai-web.vercel.app",
     siteName: "Homia",
     images: [
       {
