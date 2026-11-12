@@ -32,20 +32,13 @@ export default function CtaBanner() {
               {t("cta.sub")}
             </p>
 
-            <div className="pt-4 flex flex-col sm:flex-row justify-center items-center gap-4">
+            <div className="pt-4 flex justify-center items-center">
               <Link
                 href="#download"
                 className="inline-flex items-center gap-2 px-8 py-4 text-base font-semibold text-brand bg-white rounded-full hover:bg-slate-50 transition-all duration-200 shadow-md hover:scale-[1.02]"
               >
                 {t("cta.ctaPrimary")}
                 <ArrowRight className="w-5 h-5 rtl:rotate-180" />
-              </Link>
-              
-              <Link
-                href="#catalog"
-                className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white border border-white/30 rounded-full hover:bg-white/10 transition-all duration-200"
-              >
-                {t("cta.ctaSecondary")}
               </Link>
             </div>
           </div>
