@@ -3,9 +3,9 @@ import { SUPPORT_EMAIL } from "@/config/constants";
 
 export const privacyPolicyContent = {
   en: {
-    title: "Privacy Policy for Homia",
+    title: "Privacy Policy for Homlye & Homia Business",
     effectiveDate: "Effective Date: March 26, 2026",
-    intro: "Thank you for using Homia (“we”, “our”, or “us”). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application available on Android and iOS platforms.",
+    intro: "Thank you for using Homlye and Homia Business (“we”, “our”, or “us”). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile applications available on Android and iOS platforms.",
     sections: [
       {
         title: "1. Information We Collect",
@@ -14,28 +14,32 @@ export const privacyPolicyContent = {
         ],
         subsections: [
           {
-            title: "a. Personal Data",
-            items: ["Name", "Email address", "Account login credentials", "Profile information"]
+            title: "a. Personal & Order Data",
+            items: ["Name", "Email address", "Phone number", "District / Wilaya and gender (if provided)", "Order and purchase request details", "Account login credentials and profile information"]
           },
           {
-            title: "b. Usage Data",
+            title: "b. Merchant Store & Verification Data (Homia Business)",
+            items: ["Store name, description, website/maps URL, and coordinates", "Store logo and official signature/stamp images", "Verification documents (National ID and Commercial Register)"]
+          },
+          {
+            title: "c. Usage Data",
             items: ["Device information (model, OS version)", "IP address", "App interactions and usage behavior", "Crash logs and diagnostics"]
           },
           {
-            title: "c. Location Data",
-            items: ["Approximate or precise location (if enabled by the user)"]
+            title: "d. Location Data",
+            items: ["Approximate or precise location (if enabled by the user to discover nearby stores)"]
           },
           {
-            title: "d. Camera and Media Access",
+            title: "e. Camera and Media Access",
             items: [
-              "Camera access for augmented reality features (e.g., placing tiles, furniture)",
-              "Photos or media if you choose to upload or capture content"
+              "Camera access for augmented reality features (e.g., placing floor tiles, wall textures, and 3D furniture)",
+              "Photos or media if you choose to upload profile images or merchant product photos"
             ]
           },
           {
-            title: "e. Social Login Data",
+            title: "f. Social Login Data",
             items: [
-              "If you sign in using Google or Facebook, we may receive:",
+              "If you sign in using Google, Apple, or Facebook, we may receive:",
               "Name",
               "Email address",
               "Profile picture (if permitted)"
@@ -47,9 +51,10 @@ export const privacyPolicyContent = {
         title: "2. How We Use Your Information",
         paragraphs: ["We use your information to:"],
         items: [
-          "Provide and maintain the app functionality",
-          "Enable augmented reality features",
-          "Create and manage user accounts",
+          "Provide and maintain Homlye and Homia Business functionality",
+          "Enable augmented reality features and nearby store discovery",
+          "Create and manage shopper and merchant accounts",
+          "Process customer purchase requests and merchant invoices",
           "Improve performance and user experience",
           "Communicate with you (support, updates)",
           "Ensure security and prevent fraud"
@@ -60,8 +65,10 @@ export const privacyPolicyContent = {
         paragraphs: [
           "We use third-party services that may collect information:",
           "Google Sign-In",
+          "Apple Sign-In",
           "Facebook Sign-In",
-          "Firebase (Analytics, Authentication, Storage, Database)",
+          "Mapbox (interactive store map)",
+          "Firebase (Analytics, Authentication, Storage, Firestore Database)",
           "These services have their own privacy policies and may process your data independently."
         ]
       },
@@ -150,9 +157,9 @@ export const privacyPolicyContent = {
     consentText: "By using Homia, you agree to this Privacy Policy."
   },
   ar: {
-    title: "سياسة الخصوصية لتطبيق هوميا (Homia)",
+    title: "سياسة الخصوصية لتطبيقي هوملي وهوميا بزنس (Homlye & Homia Business)",
     effectiveDate: "تاريخ النفاذ: 26 مارس 2026",
-    intro: "نشكرك على استخدام تطبيق هوميا («نحن» أو «ضمير المتكلم» أو «لنا»). توضح سياسة الخصوصية هذه كيفية جمع معلوماتك واستخدامها والكشف عنها وحمايتها عندما تستخدم تطبيق الهاتف المحمول الخاص بنا والمتوفر على منصتي أندرويد و iOS.",
+    intro: "نشكرك على استخدام تطبيقي هوملي (Homlye) وهوميا بزنس (Homia Business) («نحن» أو «لنا»). توضح سياسة الخصوصية هذه كيفية جمع معلوماتك واستخدامها والكشف عنها وحمايتها عند استخدام تطبيقات الهاتف المحمول الخاصة بنا على منصتي Android و iOS.",
     sections: [
       {
         title: "1. المعلومات التي نجمعها",
@@ -161,28 +168,32 @@ export const privacyPolicyContent = {
         ],
         subsections: [
           {
-            title: "أ. البيانات الشخصية",
-            items: ["الاسم", "عنوان البريد الإلكتروني", "بيانات اعتماد تسجيل الدخول إلى الحساب", "معلومات الملف الشخصي"]
+            title: "أ. البيانات الشخصية وبيانات الطلبات",
+            items: ["الاسم", "عنوان البريد الإلكتروني", "رقم الهاتف", "الولاية / المنطقة والجنس (عند التقديم)", "تفاصيل طلبات الشراء", "بيانات اعتماد تسجيل الدخول ومعلومات الملف الشخصي"]
           },
           {
-            title: "ب. بيانات الاستخدام",
+            title: "ب. بيانات المتجر والتوثيق (Homia Business)",
+            items: ["اسم المتجر ووصفه ورابط الموقع/الخريطة والإحداثيات", "شعار المتجر وصورة التوقيع/الختم الرسمي", "وثائق التوثيق (بطاقة التعريف الوطنية والسجل التجاري)"]
+          },
+          {
+            title: "ج. بيانات الاستخدام",
             items: ["معلومات الجهاز (الطراز، إصدار نظام التشغيل)", "عنوان IP", "التفاعل مع التطبيق وسلوك الاستخدام", "سجلات الأعطال والتشخيص"]
           },
           {
-            title: "ج. بيانات الموقع",
-            items: ["الموقع التقريبي أو الدقيق (إذا تم تفعيله من قبل المستخدم)"]
+            title: "د. بيانات الموقع",
+            items: ["الموقع التقريبي أو الدقيق (إذا تم تفعيله من قبل المستخدم لاكتشاف المتاجر القريبة)"]
           },
           {
-            title: "د. الوصول إلى الكاميرا والوسائط",
+            title: "هـ. الوصول إلى الكاميرا والوسائط",
             items: [
-              "الوصول إلى الكاميرا لميزات الواقع المعزز (على سبيل المثال، وضع البلاط، الأثاث)",
-              "الصور أو الوسائط إذا اخترت تحميل المحتوى أو التقاطه"
+              "الوصول إلى الكاميرا لميزات الواقع المعزز (مثل وضع بلاط الأرضيات، خامات الجدران، والأثاث ثلاثي الأبعاد)",
+              "الصور أو الوسائط إذا اخترت تحميل صورة الملف الشخصي أو صور المنتجات"
             ]
           },
           {
-            title: "هـ. بيانات تسجيل الدخول الاجتماعي",
+            title: "و. بيانات تسجيل الدخول الاجتماعي",
             items: [
-              "إذا قمت بتسجيل الدخول باستخدام Google أو Facebook، فقد نتلقى:",
+              "إذا قمت بتسجيل الدخول باستخدام Google أو Apple أو Facebook، فقد نتلقى:",
               "الاسم",
               "عنوان البريد الإلكتروني",
               "صورة الملف الشخصي (إذا كان مسموحًا بها)"
@@ -194,9 +205,10 @@ export const privacyPolicyContent = {
         title: "2. كيف نستخدم معلوماتك",
         paragraphs: ["نحن نستخدم معلوماتك من أجل:"],
         items: [
-          "تقديم وظائف التطبيق وصيانتها",
-          "تمكين ميزات الواقع المعزز",
-          "إنشاء حسابات المستخدمين وإدارتها",
+          "تقديم وظائف تطبيقي Homlye و Homia Business وصيانتها",
+          "تمكين ميزات الواقع المعزز واكتشاف المتاجر القريبة",
+          "إنشاء حسابات المتسوقين والتجار وإدارتها",
+          "معالجة طلبات الشراء وفواتير التجار",
           "تحسين الأداء وتجربة المستخدم",
           "التواصل معك (الدعم، التحديثات)",
           "ضمان الأمن ومنع الاحتيال"
@@ -207,8 +219,10 @@ export const privacyPolicyContent = {
         paragraphs: [
           "نحن نستخدم خدمات طرف ثالث قد تجمع معلومات:",
           "تسجيل الدخول باستخدام Google (Google Sign-In)",
+          "تسجيل الدخول باستخدام Apple (Apple Sign-In)",
           "تسجيل الدخول باستخدام فيسبوك (Facebook Sign-In)",
-          "فايربيس (التحليلات، المصادقة، التخزين، قاعدة البيانات)",
+          "Mapbox (خريطة المتاجر التفاعلية)",
+          "فايربيس (التحليلات، المصادقة، التخزين، قاعدة بيانات Firestore)",
           "تمتلك هذه الخدمات سياسات الخصوصية الخاصة بها وقد تعالج بياناتك بشكل مستقل."
         ]
       },
@@ -297,9 +311,9 @@ export const privacyPolicyContent = {
     consentText: "باستخدامك لتطبيق هوميا، فإنك توافق على سياسة الخصوصية هذه."
   },
   fr: {
-    title: "Politique de Confidentialité de Homia",
+    title: "Politique de Confidentialité de Homlye & Homia Business",
     effectiveDate: "Date d'effet : 26 mars 2026",
-    intro: "Merci d'utiliser Homia (« nous », « notre » ou « nos »). Cette politique de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous utilisez notre application mobile disponible sur les plateformes Android et iOS.",
+    intro: "Merci d'utiliser Homlye et Homia Business (« nous », « notre » ou « nos »). Cette politique de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous utilisez nos applications mobiles disponibles sur Android et iOS.",
     sections: [
       {
         title: "1. Données que nous collectons",
@@ -308,28 +322,32 @@ export const privacyPolicyContent = {
         ],
         subsections: [
           {
-            title: "a. Données personnelles",
-            items: ["Nom", "Adresse e-mail", "Identifiants de connexion au compte", "Informations de profil"]
+            title: "a. Données personnelles et de commande",
+            items: ["Nom", "Adresse e-mail", "Numéro de téléphone", "Wilaya / quartier et genre (si fournis)", "Détails des commandes", "Identifiants de connexion et informations de profil"]
           },
           {
-            title: "b. Données d'utilisation",
+            title: "b. Données de boutique et vérification (Homia Business)",
+            items: ["Nom du magasin, description, lien site web/Google Maps et coordonnées", "Logo du magasin et image de signature/cachet officiel", "Documents de vérification (pièce d'identité nationale et registre du commerce)"]
+          },
+          {
+            title: "c. Données d'utilisation",
             items: ["Informations sur l'appareil (modèle, version du système d'exploitation)", "Adresse IP", "Interactions avec l'application et comportement d'utilisation", "Rapports de crash et diagnostics"]
           },
           {
-            title: "c. Données de localisation",
-            items: ["Localisation approximative ou précise (si activée par l'utilisateur)"]
+            title: "d. Données de localisation",
+            items: ["Localisation approximative ou précise (si activée par l'utilisateur pour découvrir les magasins proches)"]
           },
           {
-            title: "d. Accès à l'appareil photo et aux médias",
+            title: "e. Accès à l'appareil photo et aux médias",
             items: [
-              "Accès à l'appareil photo pour les fonctionnalités de réalité augmentée (ex. placement de carreaux, meubles)",
-              "Photos ou médias si vous choisissez de télécharger ou capturer du contenu"
+              "Accès à l'appareil photo pour la réalité augmentée (ex. placement de revêtements de sol, textures murales et meubles 3D)",
+              "Photos ou médias si vous choisissez de télécharger une photo de profil ou des photos de produits"
             ]
           },
           {
-            title: "e. Données de connexion sociale",
+            title: "f. Données de connexion sociale",
             items: [
-              "Si vous vous connectez via Google ou Facebook, nous pouvons recevoir :",
+              "Si vous vous connectez via Google, Apple ou Facebook, nous pouvons recevoir :",
               "Nom",
               "Adresse e-mail",
               "Photo de profil (si autorisée)"
@@ -341,9 +359,10 @@ export const privacyPolicyContent = {
         title: "2. Comment nous utilisons vos informations",
         paragraphs: ["Nous utilisons vos informations pour :"],
         items: [
-          "Fournir et maintenir les fonctionnalités de l'application",
-          "Activer les fonctionnalités de réalité augmentée",
-          "Créer et gérer les comptes utilisateurs",
+          "Fournir et maintenir les fonctionnalités de Homlye et Homia Business",
+          "Activer les fonctionnalités de réalité augmentée et la carte des magasins",
+          "Créer et gérer les comptes acheteurs et commerçants",
+          "Traiter les commandes clients et les factures des magasins",
           "Améliorer les performances et l'expérience utilisateur",
           "Communiquer avec vous (support, mises à jour)",
           "Assurer la sécurité et prévenir la fraude"
@@ -352,10 +371,12 @@ export const privacyPolicyContent = {
       {
         title: "3. Services tiers",
         paragraphs: [
-          "We use third-party services that may collect information:",
+          "Nous utilisons des services tiers susceptibles de collecter des informations :",
           "Connexion Google (Google Sign-In)",
+          "Connexion Apple (Apple Sign-In)",
           "Connexion Facebook (Facebook Sign-In)",
-          "Firebase (Analytics, Authentification, Stockage, Base de données)",
+          "Mapbox (carte interactive des magasins)",
+          "Firebase (Analytics, Authentification, Stockage, Base de données Firestore)",
           "Ces services ont leurs propres politiques de confidentialité et peuvent traiter vos données de manière indépendante."
         ]
       },
@@ -390,7 +411,7 @@ export const privacyPolicyContent = {
         ]
       },
       {
-        title: "7. Vous droits (RGPD)",
+        title: "7. Vos droits (RGPD)",
         paragraphs: [
           "Si vous êtes dans l'Union Européenne, vous avez le droit de :",
           "Accéder à vos données personnelles",

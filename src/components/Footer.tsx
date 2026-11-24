@@ -88,7 +88,7 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors duration-200">
+                  <Link href="#business" className="hover:text-white transition-colors duration-200">
                     {t("footer.press")}
                   </Link>
                 </li>
@@ -112,7 +112,7 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors duration-200">
+                  <Link href="/delete-account" className="hover:text-white transition-colors duration-200">
                     {t("footer.terms")}
                   </Link>
                 </li>

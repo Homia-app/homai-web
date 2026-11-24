@@ -26,8 +26,8 @@ export default function HomiaBusinessSection() {
       title: t("business.tabInvoices"),
       desc: t("business.tabInvoicesDesc"),
       image: "/images/business/screen_invoices.webp",
-      highlight: "LOOPINV-880 • 25,000 DA",
-      badge: "Real-time Invoicing",
+      highlight: t("business.tabInvoicesHighlight"),
+      badge: t("business.tabInvoicesBadge"),
     },
     {
       id: "products" as const,
@@ -35,8 +35,8 @@ export default function HomiaBusinessSection() {
       title: t("business.tabProducts"),
       desc: t("business.tabProductsDesc"),
       image: "/images/business/screen_product_form.webp",
-      highlight: "Doors, Paint, Tiles & Furniture",
-      badge: "Rapid Listing < 60s",
+      highlight: t("business.tabProductsHighlight"),
+      badge: t("business.tabProductsBadge"),
     },
     {
       id: "analytics" as const,
@@ -44,8 +44,8 @@ export default function HomiaBusinessSection() {
       title: t("business.tabAnalytics"),
       desc: t("business.tabAnalyticsDesc"),
       image: "/images/business/screen_analytics.webp",
-      highlight: "70M DA Revenue • +8.2%",
-      badge: "30-Day Growth Analytics",
+      highlight: t("business.tabAnalyticsHighlight"),
+      badge: t("business.tabAnalyticsBadge"),
     },
     {
       id: "arsync" as const,
@@ -53,8 +53,8 @@ export default function HomiaBusinessSection() {
       title: t("business.tabArSync"),
       desc: t("business.tabArSyncDesc"),
       image: "/images/business/screen_products_list.webp",
-      highlight: "Instant 3D Customer Projection",
-      badge: "Automated AR Sync",
+      highlight: t("business.tabArSyncHighlight"),
+      badge: t("business.tabArSyncBadge"),
     },
   ];
 
@@ -210,7 +210,7 @@ export default function HomiaBusinessSection() {
         </div>
 
         {/* The Duality Showcase: Two Apps, One Platform */}
-        <div className="space-y-6">
+        <div id="about" className="space-y-6">
           <div className="text-center space-y-2">
             <h3 className="font-heading text-2xl sm:text-3xl font-bold text-white">
               {t("business.dualityTitle")}
@@ -238,7 +238,7 @@ export default function HomiaBusinessSection() {
                     </svg>
                   </div>
                   <span className="text-xs font-semibold px-3 py-1 rounded-full bg-white/10 text-slate-300">
-                    Consumer App
+                    {t("business.consumerBadge")}
                   </span>
                 </div>
 
@@ -254,15 +254,15 @@ export default function HomiaBusinessSection() {
                 <ul className="space-y-2.5 text-start text-xs sm:text-sm text-slate-300">
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-brand shrink-0" />
-                    <span>Real-time spatial wall AR visualization</span>
+                    <span>{t("business.shopperBullet1")}</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-brand shrink-0" />
-                    <span>Wall scan & automated tile coverage calculator</span>
+                    <span>{t("business.shopperBullet2")}</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-brand shrink-0" />
-                    <span>Direct-from-studio transparent ordering</span>
+                    <span>{t("business.shopperBullet3")}</span>
                   </li>
                 </ul>
               </div>
@@ -293,7 +293,7 @@ export default function HomiaBusinessSection() {
                     />
                   </div>
                   <span className="text-xs font-semibold px-3 py-1 rounded-full bg-brand/30 border border-brand/40 text-indigo-300">
-                    Merchant App
+                    {t("business.merchantBadge")}
                   </span>
                 </div>
 
@@ -309,15 +309,15 @@ export default function HomiaBusinessSection() {
                 <ul className="space-y-2.5 text-start text-xs sm:text-sm text-slate-300">
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
-                    <span>Real-time invoice generation & order acceptance</span>
+                    <span>{t("business.ownerBullet1")}</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
-                    <span>Fast product listing (doors, paint, tiles, decor)</span>
+                    <span>{t("business.ownerBullet2")}</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
-                    <span>Live revenue & 30-day sales growth analytics</span>
+                    <span>{t("business.ownerBullet3")}</span>
                   </li>
                 </ul>
               </div>
