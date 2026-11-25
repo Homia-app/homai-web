@@ -3,9 +3,9 @@ import { SUPPORT_EMAIL } from "@/config/constants";
 
 export const privacyPolicyContent = {
   en: {
-    title: "Privacy Policy for Homlye & Homia Business",
+    title: "Privacy Policy for Homia: Decor & Homia Business",
     effectiveDate: "Effective Date: March 26, 2026",
-    intro: "Thank you for using Homlye and Homia Business (“we”, “our”, or “us”). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile applications available on Android and iOS platforms.",
+    intro: "Thank you for using Homia: Decor and Homia Business (“we”, “our”, or “us”). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile applications available on Android and iOS platforms.",
     sections: [
       {
         title: "1. Information We Collect",
@@ -51,7 +51,7 @@ export const privacyPolicyContent = {
         title: "2. How We Use Your Information",
         paragraphs: ["We use your information to:"],
         items: [
-          "Provide and maintain Homlye and Homia Business functionality",
+          "Provide and maintain Homia: Decor and Homia Business functionality",
           "Enable augmented reality features and nearby store discovery",
           "Create and manage shopper and merchant accounts",
           "Process customer purchase requests and merchant invoices",
@@ -157,9 +157,9 @@ export const privacyPolicyContent = {
     consentText: "By using Homia, you agree to this Privacy Policy."
   },
   ar: {
-    title: "سياسة الخصوصية لتطبيقي هوملي وهوميا بزنس (Homlye & Homia Business)",
+    title: "سياسة الخصوصية لتطبيقي هوميا ديكور وهوميا بزنس (Homia: Decor & Homia Business)",
     effectiveDate: "تاريخ النفاذ: 26 مارس 2026",
-    intro: "نشكرك على استخدام تطبيقي هوملي (Homlye) وهوميا بزنس (Homia Business) («نحن» أو «لنا»). توضح سياسة الخصوصية هذه كيفية جمع معلوماتك واستخدامها والكشف عنها وحمايتها عند استخدام تطبيقات الهاتف المحمول الخاصة بنا على منصتي Android و iOS.",
+    intro: "نشكرك على استخدام تطبيقي هوميا ديكور (Homia: Decor) وهوميا بزنس (Homia Business) («نحن» أو «لنا»). توضح سياسة الخصوصية هذه كيفية جمع معلوماتك واستخدامها والكشف عنها وحمايتها عند استخدام تطبيقات الهاتف المحمول الخاصة بنا على منصتي Android و iOS.",
     sections: [
       {
         title: "1. المعلومات التي نجمعها",
@@ -205,7 +205,7 @@ export const privacyPolicyContent = {
         title: "2. كيف نستخدم معلوماتك",
         paragraphs: ["نحن نستخدم معلوماتك من أجل:"],
         items: [
-          "تقديم وظائف تطبيقي Homlye و Homia Business وصيانتها",
+          "تقديم وظائف تطبيقي Homia: Decor و Homia Business وصيانتها",
           "تمكين ميزات الواقع المعزز واكتشاف المتاجر القريبة",
           "إنشاء حسابات المتسوقين والتجار وإدارتها",
           "معالجة طلبات الشراء وفواتير التجار",
@@ -311,9 +311,9 @@ export const privacyPolicyContent = {
     consentText: "باستخدامك لتطبيق هوميا، فإنك توافق على سياسة الخصوصية هذه."
   },
   fr: {
-    title: "Politique de Confidentialité de Homlye & Homia Business",
+    title: "Politique de Confidentialité de Homia: Decor & Homia Business",
     effectiveDate: "Date d'effet : 26 mars 2026",
-    intro: "Merci d'utiliser Homlye et Homia Business (« nous », « notre » ou « nos »). Cette politique de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous utilisez nos applications mobiles disponibles sur Android et iOS.",
+    intro: "Merci d'utiliser Homia: Decor et Homia Business (« nous », « notre » ou « nos »). Cette politique de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous utilisez nos applications mobiles disponibles sur Android et iOS.",
     sections: [
       {
         title: "1. Données que nous collectons",
@@ -359,7 +359,7 @@ export const privacyPolicyContent = {
         title: "2. Comment nous utilisons vos informations",
         paragraphs: ["Nous utilisons vos informations pour :"],
         items: [
-          "Fournir et maintenir les fonctionnalités de Homlye et Homia Business",
+          "Fournir et maintenir les fonctionnalités de Homia: Decor et Homia Business",
           "Activer les fonctionnalités de réalité augmentée et la carte des magasins",
           "Créer et gérer les comptes acheteurs et commerçants",
           "Traiter les commandes clients et les factures des magasins",
